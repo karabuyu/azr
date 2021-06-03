@@ -2,6 +2,7 @@ const api_Url = 'https://karabuyu.github.io/azr/cards.json';
 const newGames = document.getElementById("new-games");
 const lowOnSpace = document.getElementById("low-on-space");
 const gamesMenu = document.getElementById("games-menu");
+const subCategories = document.getElementById("games-menu");
 
 
 const games = fetch(api_Url).then(response => response.json())
@@ -17,6 +18,10 @@ const games = fetch(api_Url).then(response => response.json())
     data.games_menu.forEach(element => {
         let eachMenu = `<a href="#" class="dropdown-item">${element}</a>`;
         gamesMenu.innerHTML += eachMenu;
+    });
+    data.sub_categories.forEach(element => {
+        let eachMenu = `<a href="#" class="dropdown-item">${element}</a>`;
+        subCategories.innerHTML += eachMenu;
     });
 })
 .catch(error => {

@@ -73,5 +73,6 @@
             "img_src": "game-thumbs-10.jpg"
         }
     ],
-    "games_menu": ["Art & Design","Augmented reality","Auto & Vehicles","Beauty","Books & Reference","Business","Comics","Communication","Dating","Daydream","Education","Entertainment","Events","Finance"]
+    "games_menu": ["Art & Design","Augmented reality","Auto & Vehicles","Beauty","Books & Reference","Business","Comics","Communication","Dating","Daydream","Education","Entertainment","Events","Finance"],
+    "sub_categories": ["Action","Adventure","Arcade","Board","Card","Casino","Casual","Educational","Music","Puzzle","Racing","Role Playing","Simulation","Sports","Strategy","Trivia","Word"]
 }
