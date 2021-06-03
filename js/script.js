@@ -1,6 +1,7 @@
 const api_Url = 'https://karabuyu.github.io/azr/cards.json';
 const newGames = document.getElementById("new-games");
 const lowOnSpace = document.getElementById("low-on-space");
+const gamesMenu = document.getElementById("games-menu");
 
 
 const games = fetch(api_Url).then(response => response.json())
@@ -12,6 +13,10 @@ const games = fetch(api_Url).then(response => response.json())
     data.low_on_spaces.forEach(element => {
         let eachList = `<div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 px-2"><div class="game-div"><div class="image"><img class="img-fluid" src="img/${element.img_src}" alt=""></div><p class="title"><a href="#">${element.game}</a></p><p class="publisher"><a href="#">${element.publisher}</a></p><div class="stars star-${element.stars}"><img src="img/stars-full.png"></div></div></div></div></div>`;
         lowOnSpace.innerHTML += eachList;
+    });
+    data.games_menu.forEach(element => {
+        let eachMenu = `<a href="#" class="dropdown-item">${element.games_menu}</a>`;
+        gamesMenu.innerHTML += eachMenu;
     });
 })
 .catch(error => {

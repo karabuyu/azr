@@ -72,5 +72,6 @@
             "stars": 2,
             "img_src": "game-thumbs-10.jpg"
         }
-    ]
+    ],
+    "games_menu": ["Art & Design","Augmented reality","Auto & Vehicles","Beauty","Books & Reference","Business","Comics","Communication","Dating","Daydream","Education","Entertainment","Events","Finance"]
 }
