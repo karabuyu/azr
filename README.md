@@ -1,1 +1,1 @@
-Just for fun
+Not an investment advice
