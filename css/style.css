@@ -1,0 +1,186 @@
+body {
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a,a:hover,button,input {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.navbar {
+    border-left: 4px solid #6a9e39;
+}
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+.navbar-right img {
+    height: 20px;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.navbar-right a {
+    display: block;
+    background: transparent;
+}
+.navbar-right li:last-child img {
+    padding: 5px 18px;
+}
+.navbar-nav li.sep {
+    border-left: 1px solid #CCC;
+    margin: 0 10px;
+}
+.navbar-nav li .dropdown-menu a {
+    font-size: 12px;
+}
+.navbar-nav .nav-link {
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+.navbar-nav .nav-link:after {
+    vertical-align: middle;
+    font-size: 21px;
+}
+.navbar-nav .nav-item.dropdown.show a::after {
+    border-top: 0;
+    border-bottom: .3em solid;
+}
+.section-content {
+    margin: 0 -5px;
+}
+.section-title h2 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.section-title h2 span {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 10px 0 0;
+    color: #666;
+}
+.game-div {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    box-shadow: 0 2px 2px #aaa;
+    padding: 20px;
+}
+.game-div p.title {
+    margin: 20px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.game-div p.title a {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+}
+.game-div p.publisher {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.game-div p.publisher a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+}
+.game-div .stars {
+    background: url(../img/stars-empty.png) no-repeat left center / auto 15px;
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+.game-div .stars img {
+    float: left;
+    height: 15px;
+}
+.game-div .stars.star-1 img {
+    margin-left: -60px;
+}
+.game-div .stars.star-2 img {
+    margin-left: -45px;
+}
+.game-div .stars.star-3 img {
+    margin-left: -30px;
+}
+.game-div .stars.star-4 img {
+    margin-left: -15px;
+}
+.section-title a.link {
+    display: block;
+    background: #6a9e39;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+@media (max-width: 575px) {
+    .section-title h2 {
+        font-size: 21px;
+    }
+    .section-title h2 span {
+        font-size: 16px;
+        padding: 5px 0 0;
+    }
+    .navbar-brand img {
+        height: 30px;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-nav li.active a {
+        border-bottom: 3px solid #6a9e39;
+    }
+    .section-content .col-lg-2{
+        width: 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .navbar-nav .nav-link {
+        line-height: 24px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .navbar-left li:first-child a.nav-link {
+        font-size: 24px;
+    }
+    .navbar-nav li .dropdown-menu a {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1025px) {
+    .navbar-nav .nav-item:not(.active) .nav-link:hover {
+        background: #EEE;
+        border-bottom: 3px solid #EEE;
+    }
+    .navbar-right a:hover {
+        background: #FFF;
+        transition: all ease 0.2s;
+    }
+    .section-title a.link:hover {
+        background: #79b73f;
+        transition: all ease 0.2s;
+    }
+    .game-div .image {
+        background: #333;
+    }
+    .game-div .image:hover img {
+        transition: all ease 0.2s;
+        opacity: 0.6;
+    }
+    .game-div p.title a:hover {
+        text-decoration: underline;
+    }
+    .game-div p.publisher a:hover {
+        text-decoration: underline;    
+    }
+}

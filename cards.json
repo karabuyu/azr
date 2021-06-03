@@ -1,0 +1,76 @@
+{
+    "new_games":[
+        {
+            "id": 1,
+            "game": "Rise Of The Kings",
+            "publisher": "ONEMT",
+            "stars": 5,
+            "img_src": "game-thumbs-01.jpg"
+        },
+        {
+            "id": 2,
+            "game": "Genshin Impact",
+            "publisher": "Big Huge Games, Inc.",
+            "stars": 4,
+            "img_src": "game-thumbs-02.jpg"
+        },
+        {
+            "id": 3,
+            "game": "Best Fiends Free Play",
+            "publisher": "Seriously Digital Entertainment",
+            "stars": 3,
+            "img_src": "game-thumbs-03.jpg"
+        },
+        {
+            "id": 4,
+            "game": "Candy Crush Friends",
+            "publisher": "King",
+            "stars": 3,
+            "img_src": "game-thumbs-04.jpg"
+        },
+        {
+            "id": 5,
+            "game": "Arcane Showdown",
+            "publisher": "Big Huge Games, Inc.",
+            "stars": 4,
+            "img_src": "game-thumbs-05.jpg"
+        }
+    ],
+    "low_on_spaces":[
+        {
+            "id": 6,
+            "game": "Rise Of The Kings",
+            "publisher": "ONEMT",
+            "stars": 2,
+            "img_src": "game-thumbs-06.jpg"
+        },
+        {
+            "id": 7,
+            "game": "Genshin Impact",
+            "publisher": "Big Huge Games, Inc.",
+            "stars": 5,
+            "img_src": "game-thumbs-07.jpg"
+        },
+        {
+            "id": 8,
+            "game": "Best Fiends Free Play",
+            "publisher": "Seriously Digital Entertainment",
+            "stars": 3,
+            "img_src": "game-thumbs-08.jpg"
+        },
+        {
+            "id": 9,
+            "game": "Candy Crush Friends",
+            "publisher": "King",
+            "stars": 4,
+            "img_src": "game-thumbs-09.jpg"
+        },
+        {
+            "id": 10,
+            "game": "Arcane Showdown",
+            "publisher": "Big Huge Games, Inc.",
+            "stars": 2,
+            "img_src": "game-thumbs-10.jpg"
+        }
+    ]
+}
