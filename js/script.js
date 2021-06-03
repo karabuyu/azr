@@ -15,7 +15,7 @@ const games = fetch(api_Url).then(response => response.json())
         lowOnSpace.innerHTML += eachList;
     });
     data.games_menu.forEach(element => {
-        let eachMenu = `<a href="#" class="dropdown-item">${element.games_menu}</a>`;
+        let eachMenu = `<a href="#" class="dropdown-item">${element}</a>`;
         gamesMenu.innerHTML += eachMenu;
     });
 })
